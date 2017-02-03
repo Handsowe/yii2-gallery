@@ -16,7 +16,7 @@ use yii\web\AssetBundle;
  */
 class OnmotionAsset extends AssetBundle
 {
-    public $sourcePath = __DIR__ . '/assets';
+    public $sourcePath = '@vendor/onmotion/yii2-gallery/assets';
     public $css = [
         'bootstrap-fileinput-4.3.1/css/fileinput.min.css',
         'css/onmotion-gallery.css',
