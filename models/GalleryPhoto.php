@@ -5,7 +5,7 @@ namespace onmotion\gallery\models;
 use Yii;
 
 /**
- * This is the model class for table "g_photo".
+ * This is the model class for table "photo".
  *
  * @property string $photo_id
  * @property string $gallery_id
@@ -20,7 +20,7 @@ class GalleryPhoto extends \yii\db\ActiveRecord
      */
     public static function tableName()
     {
-        return 'g_photo';
+        return '{{%photo}}';
     }
 
     /**

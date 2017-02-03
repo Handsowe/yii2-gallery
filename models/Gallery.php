@@ -6,7 +6,7 @@ use yii;
 use yii\db\ActiveRecord;
 
 /**
- * This is the model class for table "g_gallery".
+ * This is the model class for table "gallery".
  *
  * @property string $gallery_id
  * @property string $name
@@ -20,7 +20,7 @@ class Gallery extends ActiveRecord
      */
     public static function tableName()
     {
-        return 'g_gallery';
+        return '{{%gallery}}';
     }
 
     /**

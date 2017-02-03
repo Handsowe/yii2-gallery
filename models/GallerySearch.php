@@ -41,7 +41,7 @@ class GallerySearch extends Gallery
      */
     public function search($params)
     {
-        $query = Gallery::find()->joinWith('galleryPhotos', false)->groupBy('g_gallery.gallery_id');
+        $query = Gallery::find()->joinWith('galleryPhotos', false)->groupBy('gallery_id');
 
         $dataProvider = new ActiveDataProvider([
             'query' => $query,
